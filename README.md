@@ -1,4 +1,4 @@
-# File CF
+# File CF - Secure File Locker 🔐
 
 File CF is a Secure File Locker that can encrypt and decrypt any file using a password provided by the user.
 
@@ -77,6 +77,11 @@ Kushagra Aggarwal
   </a>
 </p>
 
+
+---
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
