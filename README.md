@@ -25,9 +25,17 @@ pip install cryptography customtkinter
 ```
 
 # Download the code
-- Download/Copy and Paste the code from here: [Main](/main.py) and [Encrypt Decrypt](/encrypt_decrypt.py)
+- Download/Copy and Paste the code from here: [Pastel Theme](/pastel_theme.json), [Encrypt Decrypt](/encrypt_decrypt.py), AND [Main GUI](/main_gui.py) (**Recommended**) OR [Main](/main.py)
 
 - Store the `main.py` and `encrypt_decrypt.py` files in the same folder.
+
+# Edit the Code
+At line #9 in `main_gui.py`, in
+```bash
+ctk.set_default_color_theme("pastel_theme.json")
+```
+change `pastel_theme.json` to the actual path of your Theme file.
+
 
 # Run
 
