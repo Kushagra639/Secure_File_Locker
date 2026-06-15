@@ -15,12 +15,18 @@ while True:
         file = input("Enter the path of the file to encrypt (with the file name and extension): ")
         file = file.strip()
         file = file.strip('"')
+        if not os.path.isfile(file):
+            print("File not found.")
+            continue
         password = input("Enter the password: ")
         encrypt_file(file, password)
     elif choice == "2":
         file = input("Enter the path of the file to decrypt (with the file name and extension): ")
         file = file.strip()
         file = file.strip('"')
+        if not os.path.isfile(file):
+            print("File not found.")
+            continue
         password = input("Enter the password: ")
         decrypt_file(file, password)
     elif choice == "3":
